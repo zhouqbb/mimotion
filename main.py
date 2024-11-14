@@ -333,7 +333,9 @@ if __name__ == "__main__":
             sleep_seconds = 5
         sleep_seconds = float(sleep_seconds)
         users = config.get('USER')
+        print(users)
         passwords = config.get('PWD')
+        print(passwords)
         if users is None or passwords is None:
             print("未正确配置账号密码，无法执行")
             exit(1)
