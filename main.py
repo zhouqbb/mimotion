@@ -343,7 +343,7 @@ if __name__ == "__main__":
         if use_concurrent is not None and use_concurrent == 'True':
             use_concurrent = True
         else:
-            print(f"多账号执行间隔：{sleep_seconds}")
+            print(f"多账号执11111111行间隔：{sleep_seconds}")
             use_concurrent = False
         # endregion
         execute()
