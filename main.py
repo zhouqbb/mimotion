@@ -320,6 +320,7 @@ if __name__ == "__main__":
         config = dict()
         try:
             config = dict(json.loads(os.environ.get("CONFIG")))
+            print(config)
         except:
             print("CONFIG格式不正确，请检查Secret配置，请严格按照JSON格式：使用双引号包裹字段和值，逗号不能多也不能少")
             traceback.print_exc()
